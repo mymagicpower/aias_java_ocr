@@ -1,0 +1,8 @@
+ocr_direction_det_sdk/models/
+ocr_layout_sdk/models/
+ocr_led_sdk/models/
+ocr_v4_sdk/target/
+ocr_v4_sdk/models/
+ocr_v3_sdk/target/
+ocr_v3_sdk/models/
+ocr_table_sdk/models/
