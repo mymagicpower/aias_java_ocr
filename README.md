@@ -114,13 +114,25 @@ CPU：2.3 GHz 四核 Intel Core i5
 
 #### 5. led文字识别 - ocr_led_sdk
 ##### 5.1. 文本检测 - OcrV3DetExample
-
-![OcrV3DetExample](https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/OCR/images/led_det_result.png)
+<div align="center">
+<img src="https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/OCR/images/led_det_result.png" width = "600px"/>
+</div>
 
 ##### 5.2. 文本识别 - OcrV3RecExample
 
+<div align="center">
+<img src="https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/OCR/images/led_rec_result.png" width = "600px"/>
+</div>
 
-![OcrV3RecExample1](https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/OCR/images/led_rec_result.png)
+
+#### 6. 桌面App - desktop_app_ocr
+- 图片文字识别
+- 支持windows, linux, mac 一键安装
+<div align="center">
+<img src="https://aiart.oss-cn-shanghai.aliyuncs.com/assets/ocr.jpeg" width = "600px"/>
+</div>
+
+
 
 
 
