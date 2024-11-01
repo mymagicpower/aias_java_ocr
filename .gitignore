@@ -7,3 +7,6 @@ ocr_v3_sdk/target/
 ocr_v3_sdk/models/
 ocr_table_sdk/models/
 desktop_app_ocr/ocr_sdk/target/
+ocr_web_app/ocr_backend/.idea/
+ocr_web_app/ocr_backend/models/
+ocr_web_app/ocr_ui/node_modules/
