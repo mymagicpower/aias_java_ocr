@@ -5,7 +5,17 @@
 文字识别（OCR）目前在多个行业中得到了广泛应用，比如金融行业的单据识别输入，餐饮行业中的发票识别，
 交通领域的车票识别，企业中各种表单识别，以及日常工作生活中常用的身份证，驾驶证，护照识别等等。
 OCR（文字识别）是目前常用的一种AI能力。
+一般OCR的识别结果是一种按行识别的结构化输出，能够给出一行文字的检测框坐标及文字内容。
+但是我们更想要的是带有字段定义的结构化输出，由于表单还活着卡证的多样性，全都预定义好是不现实的。
+所以，设计了自定义模板的功能，能够让人设置参照锚点（通过锚点匹配定位，图片透视变换对齐），以及内容识别区
+来得到key-value形式的结构化数据。
 
+当前 iocr 版本包含了下面功能：
+1. 模板自定义
+2. 基于模板识别（支持旋转、倾斜的图片）
+3. 自由文本识别
+4. 文本转正
+  
 ### OCR工具箱功能:
 
 #### 1. 图像预处理SDK
@@ -133,7 +143,21 @@ CPU：2.3 GHz 四核 Intel Core i5
 </div>
 
 
+#### 7. OCR 自定义模版识别 - iocr
+#### 7.1. 自定义模板 - 参照锚点设置
+![Screenshot](https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/OCR/images/ocr_anchor.jpeg)
 
+#### 7.2. 自定义模板 - 内容识别区设置
+![Screenshot](https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/OCR/images/ocr_content.jpeg)
+
+#### 7.3. 基于模板文字识别
+![Screenshot](https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/OCR/images/ocr_rec.jpeg)
+
+#### 7.4. 通用文本识别  
+![Screenshot](https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/OCR/images/ocr_freetxt.jpeg)
+ 
+#### 7.5. 文本转正
+![Screenshot](https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/OCR/images/ocrweb_mlsd.jpg)
 
 
 ### 开源算法
