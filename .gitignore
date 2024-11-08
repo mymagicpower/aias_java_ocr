@@ -12,3 +12,4 @@ ocr_web_app/ocr_backend/models/
 ocr_web_app/ocr_ui/node_modules/
 iocr/ocr_backend/.idea/
 iocr/ocr_backend/target/
+iocr/ocr_ui/.idea/
