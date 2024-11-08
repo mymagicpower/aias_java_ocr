@@ -10,3 +10,5 @@ desktop_app_ocr/ocr_sdk/target/
 ocr_web_app/ocr_backend/.idea/
 ocr_web_app/ocr_backend/models/
 ocr_web_app/ocr_ui/node_modules/
+iocr/ocr_backend/.idea/
+iocr/ocr_backend/target/
