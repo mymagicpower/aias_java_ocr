@@ -135,30 +135,6 @@ CPU：2.3 GHz 四核 Intel Core i5
 </div>
 
 
-#### 6. 桌面App - desktop_app_ocr
-- 图片文字识别
-- 支持windows, linux, mac 一键安装
-<div align="center">
-<img src="https://aiart.oss-cn-shanghai.aliyuncs.com/assets/ocr.jpeg" width = "600px"/>
-</div>
-
-
-#### 7. OCR 自定义模版识别 - iocr
-#### 7.1. 自定义模板 - 参照锚点设置
-![Screenshot](https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/OCR/images/ocr_anchor.jpeg)
-
-#### 7.2. 自定义模板 - 内容识别区设置
-![Screenshot](https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/OCR/images/ocr_content.jpeg)
-
-#### 7.3. 基于模板文字识别
-![Screenshot](https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/OCR/images/ocr_rec.jpeg)
-
-#### 7.4. 通用文本识别  
-![Screenshot](https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/OCR/images/ocr_freetxt.jpeg)
- 
-#### 7.5. 文本转正
-![Screenshot](https://aias-home.oss-cn-beijing.aliyuncs.com/AIAS/OCR/images/ocrweb_mlsd.jpg)
-
 
 ### 开源算法
 #### 1. PaddleOCR开源大礼包
